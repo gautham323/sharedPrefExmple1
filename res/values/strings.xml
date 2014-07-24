@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">sharedPrefExmple</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home__page">Home_Page</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="pwdhint">Enter Password</string>
+    <string name="usrhint">Enter Username</string>
+    <string name="loginbtn">Login</string>
+
+</resources>

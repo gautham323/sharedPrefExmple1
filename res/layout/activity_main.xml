@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editTextPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editTextUsername"
+        android:layout_alignRight="@+id/editTextUsername"
+        android:layout_below="@+id/textViewUser"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint="@string/pwdhint"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextUsername"
+        android:layout_alignBottom="@+id/editTextUsername"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="44dp"
+        android:layout_toRightOf="@+id/textViewUser"
+        android:ems="10"
+        android:hint="@string/usrhint"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewPwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextPwd"
+        android:layout_alignBottom="@+id/editTextPwd"
+        android:layout_alignLeft="@+id/textViewUser"
+        android:text="@string/password" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editTextPwd"
+        android:layout_centerVertical="true"
+        android:text="@string/loginbtn" />
+    
+</RelativeLayout>
